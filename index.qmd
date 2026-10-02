@@ -87,7 +87,7 @@ Magnetic Schrödinger operators, exact eigenvalue crossings, and stability quest
 **August 2026** — Joined Brown University as a Postdoctoral Researcher in Mathematics.
 :::
 ::: {.news-item}
-**July 2026** — *Auto-Adaptive PINNs with Applications to Phase Transitions* accepted in NMTMA.
+**May 2026** — [*Auto-Adaptive PINNs with Applications to Phase Transitions*](https://doi.org/10.4208/nmtma.OA-2026-0014) published in NMTMA.
 :::
 ::: {.news-item}
 **2025** — *Convergence Properties of PINNs for the Navier-Stokes-Cahn-Hilliard System* accepted in PAFA.

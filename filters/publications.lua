@@ -67,7 +67,7 @@ function Div(div)
       local found = false
       for _, publication in ipairs(publications) do
         if stringify(publication.id) == id then
-          local href = publication.links and (publication.links.arxiv or publication.links.journal)
+          local href = publication.links and (publication.links.journal or publication.links.arxiv)
           local note = publication.note and (", " .. escape_html(publication.note)) or ""
           table.insert(blocks, pandoc.RawBlock("html", string.format([[<article class="publication-item"><span class="status-badge">%s</span><h3><a href="%s">%s</a></h3><p class="publication-authors">%s</p><p class="publication-venue"><em>%s</em>, %s%s.</p></article>]], escape_html(publication.status), escape_html(href), escape_html(publication.title), join_authors(publication.authors), escape_html(publication.venue), escape_html(publication.year), note)))
           found = true
@@ -82,7 +82,7 @@ function Div(div)
   local data_path = div.attributes["data"]
   if not data_path then error("publication-catalog requires a data attribute") end
   local publications = read_yaml_sequence(data_path)
-  local groups = {{status="accepted",heading="Accepted publications"},{status="submitted",heading="Submitted papers"},{status="preprint",heading="Preprints"}}
+  local groups = {{status="published",heading="Journal articles"},{status="accepted",heading="Accepted publications"},{status="submitted",heading="Submitted papers"},{status="preprint",heading="Preprints"}}
   local blocks = {}
   for _, group in ipairs(groups) do
     table.insert(blocks, pandoc.Header(2, group.heading))

@@ -68,9 +68,9 @@
   title: Auto-Adaptive PINNs with Applications to Phase Transitions
   authors: [Kevin Buck, Woojeong Kim]
   year: 2026
-  status: accepted
+  status: published
   venue: "Numerical Mathematics: Theory, Methods and Applications"
-  note: To appear
+  note: "19(2), pp. 510–534"
   topics: [PINNs, adaptive sampling, phase transitions]
   abstract: >-
     We introduce an auto-adaptive sampling strategy that updates a physics-informed neural network's collocation distribution during training and demonstrate its effectiveness on phase-transition problems.
@@ -83,7 +83,10 @@
       title = {Auto-Adaptive PINNs with Applications to Phase Transitions},
       journal = {Numerical Mathematics: Theory, Methods and Applications},
       year = {2026},
-      note = {To appear},
+      volume = {19},
+      number = {2},
+      pages = {510--534},
+      doi = {10.4208/nmtma.OA-2026-0014},
       eprint = {2510.23999},
       archivePrefix = {arXiv},
       primaryClass = {math.NA}

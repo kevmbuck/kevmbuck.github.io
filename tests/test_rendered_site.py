@@ -40,6 +40,6 @@ def test_homepage_publications_match_catalog_metadata():
     for highlight, publication_id in zip(highlights, expected_ids):
         publication = by_id[publication_id]
         assert highlight.select_one('h3').get_text(strip=True) == publication['title']
-        assert highlight.select_one('h3 a')['href'] == publication['links']['arxiv']
+        assert highlight.select_one('h3 a')['href'] == publication['links'].get('journal', publication['links']['arxiv'])
         assert highlight.select_one('.status-badge').get_text(strip=True) == publication['status']
         assert highlight.select_one('.publication-authors').get_text(strip=True) == ', '.join(publication['authors'])
