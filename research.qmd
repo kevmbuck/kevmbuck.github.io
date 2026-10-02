@@ -1,0 +1,42 @@
+---
+title: "Research"
+description: "Research in nonlinear PDEs, numerical analysis, and scientific machine learning."
+---
+
+My research combines rigorous analysis, numerical computation, and machine learning to understand nonlinear partial differential equations. A recurring goal is to identify when a computational method is reliable, why it fails on difficult multiscale problems, and how its design can be improved using the structure of the underlying PDE.
+
+## Physics-informed neural networks
+
+A physics-informed neural network approximates a PDE solution by minimizing a residual-based loss. My work asks when a small loss genuinely implies a small solution error. For a differential operator $\mathcal{L}$, the basic training objective has the form
+
+$$
+\mathcal{J}(\theta)
+= \|\mathcal{L}u_\theta-f\|^2
++ \|u_\theta(0)-u_0\|^2
++ \|u_\theta-g\|^2_{\partial\Omega}.
+$$
+
+With Roger Temam, I study this question through PDE well-posedness: a trained network is viewed as the exact solution of a perturbed problem, and continuity estimates for the solution operator are used to turn residual bounds into approximation-error bounds. We apply this framework to the Cahn–Hilliard and Navier–Stokes–Cahn–Hilliard systems.
+
+## Adaptive methods for multiscale PDEs
+
+My work on auto-adaptive PINNs develops collocation distributions that evolve during training. Rather than sampling uniformly or only where the residual is large, the method can use problem-informed indicators—such as energy density—to follow moving interfaces and other narrow regions that dominate the error. This is particularly useful for phase-transition equations such as Allen–Cahn and Cahn–Hilliard.
+
+## Nonlinear PDEs and spectral stability
+
+Beyond scientific machine learning, I work on numerical and analytical questions for physically motivated PDEs. Current themes include compactly supported steady states in vasculogenesis models, stationary profiles in compressible Navier–Stokes systems, boundary layers, shock formation, and spectral stability.
+
+## Singularities and magnetic spectral problems
+
+My recent work studies singularity formation in nonlinear Schrödinger equations and spectral properties of magnetic Schrödinger operators. With Alvaro Carballeira, Javier Gómez-Serrano, and Jia Shi, I prove [finite-time blow-up for energy-supercritical defocusing nonlinear Schrödinger equations](https://arxiv.org/abs/2609.23685) in dimensions three, four, and five using a computer-assisted shooting argument.
+
+With Charles L. Fefferman, Javier Gómez-Serrano, Amaury Hayat, Jacob Shapiro, and Michael I. Weinstein, I study [magnetic double wells](https://arxiv.org/abs/2609.21078), proving exact crossings of the two lowest eigenvalues for infinitely many values of the coupling constant.
+
+## Current directions
+
+::: {.project-catalog data="data/projects.yml" kind="research"}
+:::
+
+## Research statement
+
+[Download my research statement](assets/documents/Kevin_Buck_Research_Statement.pdf){.btn .btn-primary}

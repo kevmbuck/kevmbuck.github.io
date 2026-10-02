@@ -1,0 +1,121 @@
+- id: defocusing-nls-blowup
+  title: "Blow-up for energy supercritical defocusing nonlinear Schrödinger equations in dimensions three, four and five"
+  authors: ["Kevin Buck","Alvaro Carballeira","Javier Gómez-Serrano","Jia Shi"]
+  year: 2026
+  status: preprint
+  venue: arXiv preprint
+  topics: ["nonlinear PDEs","nonlinear Schrödinger equations","computer-assisted proofs"]
+  abstract: >-
+    We prove finite-time blow-up from smooth, radial, compactly supported initial data for energy-supercritical defocusing nonlinear Schrödinger equations in dimensions three, four, and five, using a computer-assisted shooting argument.
+  links:
+    arxiv: https://arxiv.org/abs/2609.23685
+  bibtex: |-
+    @misc{buck2026defocusing,
+      author = {Kevin Buck and Alvaro Carballeira and Javier Gómez-Serrano and Jia Shi},
+      title = {Blow-up for energy supercritical defocusing nonlinear {Schrödinger} equations in dimensions three, four and five},
+      year = {2026},
+      eprint = {2609.23685},
+      archivePrefix = {arXiv},
+      primaryClass = {math.AP}
+    }
+  featured: true
+- id: magnetic-double-wells
+  title: "Double-wells in a strong magnetic field: absence of tunneling for infinitely many values of the coupling constant"
+  authors: ["Kevin Buck","Charles L. Fefferman","Javier Gómez-Serrano","Amaury Hayat","Jacob Shapiro","Michael I. Weinstein"]
+  year: 2026
+  status: preprint
+  venue: arXiv preprint
+  topics: [spectral theory, magnetic Schrödinger operators, asymptotic analysis]
+  abstract: >-
+    We prove the fixed-potential conjecture for inversion-symmetric magnetic double wells, constructing a single-well potential for which the two lowest eigenvalues cross exactly at infinitely many coupling values. The proof uses asymptotic analysis of the magnetic hopping coefficient.
+  links:
+    arxiv: https://arxiv.org/abs/2609.21078
+  bibtex: |-
+    @misc{buck2026doublewells,
+      author = {Kevin Buck and Charles L. Fefferman and Javier Gómez-Serrano and Amaury Hayat and Jacob Shapiro and Michael I. Weinstein},
+      title = {Double-wells in a strong magnetic field: absence of tunneling for infinitely many values of the coupling constant},
+      year = {2026},
+      eprint = {2609.21078},
+      archivePrefix = {arXiv},
+      primaryClass = {math.AP}
+    }
+  featured: true
+- id: pinns-nsch
+  title: Convergence Properties of PINNs for the Navier-Stokes-Cahn-Hilliard System
+  authors: [Kevin Buck, Roger Temam]
+  year: 2025
+  status: accepted
+  venue: Pure and Applied Functional Analysis
+  note: To appear
+  topics: [PINNs, nonlinear PDEs, Cahn-Hilliard]
+  abstract: >-
+    We develop a PDE-based framework for relating physics-informed neural-network residuals to approximation error and apply it to the Cahn-Hilliard and Navier-Stokes-Cahn-Hilliard systems.
+  links:
+    arxiv: https://arxiv.org/abs/2505.07964
+  bibtex: |-
+    @article{buck2025convergence,
+      author = {Kevin Buck and Roger Temam},
+      title = {Convergence Properties of PINNs for the Navier--Stokes--Cahn--Hilliard System},
+      journal = {Pure and Applied Functional Analysis},
+      year = {2025},
+      note = {To appear},
+      eprint = {2505.07964},
+      archivePrefix = {arXiv},
+      primaryClass = {math.NA}
+    }
+  featured: true
+- id: aa-pinn-phase-transitions
+  title: Auto-Adaptive PINNs with Applications to Phase Transitions
+  authors: [Kevin Buck, Woojeong Kim]
+  year: 2026
+  status: accepted
+  venue: "Numerical Mathematics: Theory, Methods and Applications"
+  note: To appear
+  topics: [PINNs, adaptive sampling, phase transitions]
+  abstract: >-
+    We introduce an auto-adaptive sampling strategy that updates a physics-informed neural network's collocation distribution during training and demonstrate its effectiveness on phase-transition problems.
+  links:
+    arxiv: https://arxiv.org/abs/2510.23999
+    journal: https://doi.org/10.4208/nmtma.OA-2026-0014
+  bibtex: |-
+    @article{buck2026autoadaptive,
+      author = {Kevin Buck and Woojeong Kim},
+      title = {Auto-Adaptive PINNs with Applications to Phase Transitions},
+      journal = {Numerical Mathematics: Theory, Methods and Applications},
+      year = {2026},
+      note = {To appear},
+      eprint = {2510.23999},
+      archivePrefix = {arXiv},
+      primaryClass = {math.NA}
+    }
+  featured: true
+- id: nonconvex-sgd-games
+  title: Nonconvex Optimization and Convergence of Stochastic Gradient Descent, and Solution of Asynchronous Game
+  authors: [Kevin Buck, Jessica Babyak, Paolo Piersanti, Kevin Zumbrun, Christiane Gallos, Dorothea Gallos]
+  year: 2025
+  status: submitted
+  venue: Submitted
+  topics: [optimization, stochastic gradient descent, game theory]
+  links:
+    arxiv: https://arxiv.org/abs/2503.02155
+  featured: true
+- id: synchronous-asynchronous-coalitions
+  title: Synchronous vs. Asynchronous Coalitions in Multiplayer Games, with Applications to Guts Poker
+  authors: [Jessica Babyak, Kevin Buck, Leah Dichter, David Jiang, Kevin Zumbrun]
+  year: 2024
+  status: preprint
+  venue: arXiv preprint
+  topics: [game theory, multiplayer games]
+  links:
+    arxiv: https://arxiv.org/abs/2412.19855
+  featured: false
+- id: continuous-guts-poker
+  title: Continuous Guts Poker and Numerical Optimization of Generalized Recursive Games
+  authors: [Kevin Buck, Jae Hwan Lee, Jacob Platnick, Aric Wheeler, Kevin Zumbrun]
+  year: 2022
+  status: preprint
+  venue: arXiv preprint
+  topics: [game theory, numerical optimization]
+  links:
+    arxiv: https://arxiv.org/abs/2208.02788
+  featured: false

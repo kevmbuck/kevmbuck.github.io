@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+
+website:
+  title: "Kevin Buck Academic Website"
+  favicon: assets/images/brown-favicon.png
+  site-url: "https://kevmbuck.github.io"
+  description: "Postdoctoral research in nonlinear PDEs, numerical analysis, and scientific machine learning at Brown University."
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/kevmbuck
+        aria-label: GitHub profile
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=odO84I0AAAAJ&hl=en
+        aria-label: Google Scholar profile
+  page-footer:
+    left: "© 2026 Kevin Buck"
+    right: "Built with Quarto and hosted on GitHub Pages"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    html-math-method: mathjax
+    code-copy: true
+
+execute:
+  freeze: auto
+
+filters:
+  - filters/publications.lua
+  - filters/projects.lua

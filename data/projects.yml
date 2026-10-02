@@ -1,0 +1,42 @@
+- id: pinn-convergence
+  title: Rigorous Foundations for Physics-Informed Neural Networks
+  kind: research
+  summary: Error estimates that connect PINN residual loss to approximation accuracy for nonlinear PDEs.
+  description: >-
+    This work treats a trained PINN as the solution of a perturbed PDE and uses well-posedness and continuity estimates to quantify when a small residual implies a small solution error.
+  tags: [PINNs, PDE analysis, error estimates]
+  publication_ids: [pinns-nsch]
+  links:
+    paper: https://arxiv.org/abs/2505.07964
+  featured: true
+- id: aa-pinn
+  title: Auto-Adaptive PINNs
+  kind: research
+  summary: Adaptive collocation strategies for multiscale and interface-dominated PDEs.
+  description: >-
+    The sampling distribution evolves alongside network training using problem-informed quantities, allowing collocation points to follow moving interfaces and other difficult regions.
+  tags: [PINNs, adaptive sampling, phase transitions]
+  publication_ids: [aa-pinn-phase-transitions]
+  links:
+    paper: https://arxiv.org/abs/2510.23999
+  featured: true
+- id: vasculogenesis
+  title: Vasculogenesis Steady States
+  kind: research
+  summary: Numerical and analytical study of stable Barenblatt-type steady states in a vasculogenesis model.
+  description: >-
+    This project investigates existence and linear stability of compactly supported steady structures motivated by models of vascular network formation.
+  tags: [nonlinear PDEs, steady states, stability]
+  publication_ids: []
+  links: {}
+  featured: true
+- id: shock-spectral-analysis
+  title: Shock Formation and Spectral Stability
+  kind: research
+  summary: Numerical resolution of stationary compressible-flow profiles and their spectra in tube geometries.
+  description: >-
+    This work studies boundary layers, stationary shock profiles, and spectral information for compressible Navier-Stokes systems.
+  tags: [compressible flow, shocks, spectral stability]
+  publication_ids: []
+  links: {}
+  featured: true

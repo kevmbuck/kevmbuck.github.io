@@ -1,0 +1,30 @@
+---
+title: "CV"
+description: "Curriculum vitae and professional summary."
+---
+
+## Current position
+
+**Postdoctoral Researcher in Mathematics**  
+Brown University, 2026–present
+
+## Research areas
+
+Nonlinear partial differential equations; numerical analysis; scientific machine learning; physics-informed neural networks; fluid dynamics; phase-transition systems; spectral stability.
+
+## Education
+
+**Ph.D. in Mathematics**, Indiana University  
+Advisors: Roger Temam and Kevin Zumbrun
+
+**B.S. in Mathematics with Honors, magna cum laude**, Wake Forest University  
+**B.A. in Philosophy**, Wake Forest University
+
+## Selected recognition
+
+- David A. Rothrock Fellowship for Outstanding Teaching, 2025
+- Graduate Student Service Award, 2025
+- Hazel King Thompson Fellowship, 2022 and 2025
+- ISC Travel Award and CIME Grant, 2024
+
+[Download the full CV](assets/documents/Kevin_Buck_CV.pdf){.btn .btn-primary}

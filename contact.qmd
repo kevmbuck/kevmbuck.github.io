@@ -1,0 +1,15 @@
+---
+title: "Contact"
+description: "Professional contact information."
+---
+
+## Kevin Buck
+
+Postdoctoral Researcher in Mathematics  
+Brown University
+
+- **Email:** [kevin_buck@brown.edu](mailto:kevin_buck@brown.edu)
+- **GitHub:** [github.com/kevmbuck](https://github.com/kevmbuck)
+- **Google Scholar:** [Publication profile](https://scholar.google.com/citations?user=odO84I0AAAAJ&hl=en)
+
+For research correspondence, seminar invitations, or potential collaboration, email is the most direct way to reach me.

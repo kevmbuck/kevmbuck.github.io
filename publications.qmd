@@ -1,0 +1,11 @@
+---
+title: "Publications"
+description: "Journal articles, submitted work, and preprints."
+---
+
+My work spans scientific machine learning, nonlinear partial differential equations, numerical analysis, optimization, and game theory.
+
+::: {.publication-catalog data="data/publications.yml"}
+:::
+
+[Download the publication list](assets/documents/Kevin_Buck_Publication_List.pdf){.btn .btn-primary}

@@ -1,0 +1,24 @@
+---
+title: "Teaching"
+description: "Teaching, curriculum development, and mathematical mentorship."
+---
+
+I view teaching and mentorship as essential parts of a healthy mathematical community. Students learn best when they are comfortable asking questions, exploring ideas, and having room to make mistakes without fear of failure. My goal is to balance rigor with approachability while helping students develop confidence, independence, and a lasting interest in mathematics.
+
+## Classroom and curriculum development
+
+At Indiana University, I served as instructor of record for courses spanning linear algebra for data science, transition to calculus, introductory college mathematics, and mathematics for liberal arts students. I developed curricula for **E201 — Linear Algebra for Data Science** and **X201 — Transition to Calculus**.
+
+For Linear Algebra for Data Science, I organized the course around motivating applications, including clustering, linear regression, singular value decomposition, and principal component analysis. For Transition to Calculus, I used a flipped structure and benchmark-based grading to support gradual progress through an intensive half-semester course. Across these courses, I aimed to connect formal mathematical ideas with the questions students wanted to understand while preserving mathematical rigor.
+
+## Selected experience
+
+- **E201 — Linear Algebra for Data Science** (Spring 2025)
+- **X201 — Transition to Calculus** (Fall 2022, Spring 2024)
+- **J111 — Introduction to College Mathematics** (Fall 2021, Fall 2023)
+- **M106 — Mathematics of Decision and Beauty** (Spring 2022, Spring 2023)
+- **M741 — Topics in Applied Mathematics** (Spring 2024), lecture series on nonconvex optimization and machine learning
+
+## Mentoring
+
+I coordinated the **Lab of Experimental Mathematics and Mathematical Applications (LEMMA)**, where graduate mentors guide groups of undergraduates through research-adjacent mathematical projects. I also helped mentor summer REU projects and supported researchers learning scientific computing, numerical methods, and machine-learning workflows. These experiences reinforced my belief that mentorship is most effective when students receive clear guidance while retaining the freedom to pursue their own ideas.

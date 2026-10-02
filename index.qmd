@@ -1,0 +1,96 @@
+---
+pagetitle: "Kevin Buck Academic Website"
+page-layout: full
+---
+
+::: {.hero}
+::: {.hero-copy}
+<div class="hero-kicker">Applied Mathematics · Scientific Computing</div>
+
+# Kevin Buck
+
+<div class="hero-position">
+Postdoctoral Researcher, Brown University<br>
+Department of Mathematics · 2026–present
+</div>
+
+<div class="hero-summary">
+I study nonlinear partial differential equations through rigorous analysis and scientific computation. My work spans singularity formation, spectral theory, and reliable machine-learning methods for PDEs.
+</div>
+
+::: {.hero-links}
+[CV](assets/documents/Kevin_Buck_CV.pdf){aria-label="Download my CV"}
+[Google Scholar](https://scholar.google.com/citations?user=odO84I0AAAAJ&hl=en)
+[GitHub](https://github.com/kevmbuck)
+[Email](mailto:kevin_buck@brown.edu)
+:::
+:::
+
+::: {.hero-image}
+<img src="assets/images/kevin-buck-portrait.jpg" alt="" role="presentation" class="img-fluid">
+:::
+:::
+
+::: {.home-section}
+::: {.section-heading}
+## Latest preprints
+[All publications →](publications.qmd)
+:::
+
+::: {.publication-highlights data="data/publications.yml" ids="defocusing-nls-blowup,magnetic-double-wells"}
+:::
+:::
+
+::: {.home-section}
+::: {.section-heading}
+## Research highlights
+[Research overview →](research.qmd)
+:::
+
+::: {.research-grid}
+::: {.research-card}
+### Scientific machine learning
+Error estimates and adaptive sampling for physics-informed neural networks, with applications to phase-transition systems.
+
+[PINN analysis and methods →](research.qmd#physics-informed-neural-networks)
+:::
+::: {.research-card}
+### Singularity formation
+Computer-assisted proofs of finite-time blow-up for energy-supercritical defocusing nonlinear Schrödinger equations.
+
+[Singularities in nonlinear PDEs →](research.qmd#singularities-and-magnetic-spectral-problems)
+:::
+::: {.research-card}
+### Spectral theory
+Magnetic Schrödinger operators, exact eigenvalue crossings, and stability questions in nonlinear PDEs.
+
+[Spectral problems and stability →](research.qmd#singularities-and-magnetic-spectral-problems)
+:::
+:::
+:::
+
+::: {.home-section}
+::: {.section-heading}
+## Selected publications
+[All publications →](publications.qmd)
+:::
+
+::: {.publication-highlights data="data/publications.yml" ids="aa-pinn-phase-transitions,pinns-nsch"}
+:::
+:::
+
+::: {.home-section}
+## Recent news
+
+::: {.news-list}
+::: {.news-item}
+**August 2026** — Joined Brown University as a Postdoctoral Researcher in Mathematics.
+:::
+::: {.news-item}
+**July 2026** — *Auto-Adaptive PINNs with Applications to Phase Transitions* accepted in NMTMA.
+:::
+::: {.news-item}
+**2025** — *Convergence Properties of PINNs for the Navier-Stokes-Cahn-Hilliard System* accepted in PAFA.
+:::
+:::
+:::
